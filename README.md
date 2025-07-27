@@ -47,16 +47,7 @@ cd songs-microservice
 npm install
 ```
 
-3. Configurar variables de entorno:
-Crear un archivo `.env` en la raíz del proyecto:
-```env
-DB_HOST=localhost
-DB_PORT=1433
-DB_USERNAME=usr_polimusic_gr2
-DB_PASSWORD=Politecnica1
-DB_NAME=BDD_PoliMusic_Song
-PORT=3000
-NODE_ENV=development
+
 ```
 
 4. Ejecutar el script SQL proporcionado para crear la base de datos y tabla.
@@ -242,17 +233,7 @@ El microservicio incluye logging automático de:
 4. **Google Cloud Run**
 5. **Heroku**
 
-### Variables de Entorno para Producción
 
-```env
-DB_HOST=<production-db-host>
-DB_PORT=1433
-DB_USERNAME=<production-username>
-DB_PASSWORD=<production-password>
-DB_NAME=BDD_PoliMusic_Song
-PORT=3000
-NODE_ENV=production
-```
 
 ## 🧪 Testing
 
